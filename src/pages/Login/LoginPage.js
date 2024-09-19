@@ -5,6 +5,8 @@ import Formulario from '../../components/fomulario/Formulario';
 import Cabecalho from '../../components/CabecalhoLogin/Cabecalho'; 
 import ButtonAcess from '../../components/ButtonAcess/acess'; 
 import ButtonAcount from '../../components/ButtonAcount/creact'; 
+
+
 import styles from './styles'; 
 
 export default function Login() {
@@ -71,6 +73,7 @@ export default function Login() {
       <View style={styles.containerBtns}>
         <ButtonAcess onPress={saveData} />
         <ButtonAcount />
+        
       </View>
     </View>
   );

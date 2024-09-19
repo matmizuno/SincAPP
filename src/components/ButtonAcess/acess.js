@@ -10,7 +10,7 @@ export default function Acess({ onPress }) {
     if (onPress) {
       onPress(); // Executa a função passada via props
     }
-    navigation.navigate('Acount'); // Faz a navegação
+    navigation.navigate('HomeApp'); // Faz a navegação
   };
 
   return (
