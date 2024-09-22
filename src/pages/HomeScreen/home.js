@@ -1,7 +1,7 @@
 // HomeScreen.js
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import styles from './style';
+import style from './style'
 
 export default function HomeScreen(){
   return(

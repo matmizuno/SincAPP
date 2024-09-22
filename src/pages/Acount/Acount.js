@@ -4,6 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import Formulario from '../../components/fomulario/Formulario'
 import Cabecalho from '../../components/CabecalhoLogin/Cabecalho'
 import ButtonAcess from '../../components/ButtonAcess/acess'
+import ButtonAcessC from '../../components/ButtonAcessC/acess'
 import ButtonAcount from '../../components/ButtonAcount/creact'
 import styles from './style';
 
@@ -16,7 +17,7 @@ export default function ACount(){
       </View>
       <Formulario/>
       <View style={styles.containerBtns}>
-      <ButtonAcess/>
+      <ButtonAcessC/>
       <ButtonAcount/>
       </View>
   

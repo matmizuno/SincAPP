@@ -7,6 +7,7 @@ import ButtonAcess from '../../components/ButtonAcess/acess';
 import ButtonAcount from '../../components/ButtonAcount/creact'; 
 
 
+
 import styles from './styles'; 
 
 export default function Login() {
@@ -57,6 +58,7 @@ export default function Login() {
       </View>
     );
   }
+
 
   return (
     <View style={styles.container}>

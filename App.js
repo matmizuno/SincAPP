@@ -7,7 +7,8 @@ import SplashScreen from './src/pages/Splash/SplashScreen';
 import ACount from './src/pages/Acount/Acount';
 import HomeScreen from './src/pages/HomeScreen/home';
 import LoginPage from './src/pages/Login/LoginPage';
-import HomeApp from './src/pages/HomeApp'
+import HomeApp from './src/pages//HomeApp/HomeApp'
+import AcountUser from './src/pages/AcountUser/user';
 
 // Habilita a otimização de telas
 enableScreens();
@@ -27,7 +28,10 @@ const App = () => {
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
         <Stack.Screen name="Acount" component={ACount} />
         <Stack.Screen name="HomeApp" component={HomeApp} />
-
+        <Stack.Screen name="UserApp" component={AcountUser} />
+       
+        
+ 
         
       </Stack.Navigator>
     </NavigationContainer>
